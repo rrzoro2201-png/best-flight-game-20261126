@@ -32,3 +32,6 @@ writeFileSync(
     game_path_max_bytes: 1000,
   }),
 );
+
+// One line on stdout so a local run shows what it handed in.
+console.log(`Langit Senja handed in: game/ + screenshots/ copied to ${out}, dossier.json written.`);
